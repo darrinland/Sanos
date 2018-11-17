@@ -3,7 +3,7 @@ body {
 }
 
 .content {
-	max-width: 360px;
+	max-width: 800px;
 	margin: 0px auto 16px;
 	padding: 32px 24px;
 	border-radius: 24px;
@@ -13,4 +13,36 @@ body {
 	font-size: 30px;
 	text-align: center;
 	padding-bottom: 12px;
+}
+
+.content-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.emotion-options {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin: 0px auto 16px;
+	max-width: 400px;
+}
+
+.emotion {
+	padding: 10px;
+	margin: 10px 15px;
+	background-color: lightblue;
+	border-radius: 12px;
+}
+
+.emotion:hover {
+	cursor: pointer;
+}
+
+.question-prompt {
+	text-align: center;
+	font-style: italic;
+	font-size: 30px;
+	margin-bottom: 15px;
 }
