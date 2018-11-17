@@ -2,7 +2,7 @@ let emotions = [];
 
 emotions.push({
 	emotionLabel: "Happy",
-	startFromAny: True,
+	startFromAny: true,
 	startFromEmotions: [],
 	content: {
 		music: [
@@ -53,6 +53,210 @@ emotions.push({
 		website: [
 			{ label: " Good News", url: "https://www.today.com/news/good-news" }
 		]
+	}
+});
+
+emotions.push({
+	emotionLabel: "Relaxed",
+	startFromAny: true,
+	startFromEmotions: [],
+	content: {
+		music: [],
+		video: [],
+		website: [],
+		activity: []
+	}
+});
+
+emotions.push({
+	emotionLabel: "Carefree",
+	startFromAny: true,
+	startFromEmotions: [],
+	content: {
+		music: [],
+		video: [],
+		website: [],
+		activity: []
+	}
+});
+
+emotions.push({
+	emotionLabel: "Connected",
+	startFromAny: true,
+	startFromEmotions: [],
+	content: {
+		music: [],
+		video: [],
+		website: [],
+		activity: []
+	}
+});
+
+emotions.push({
+	emotionLabel: "Loved",
+	startFromAny: true,
+	startFromEmotions: [],
+	content: {
+		music: [],
+		video: [],
+		website: [],
+		activity: []
+	}
+});
+
+emotions.push({
+	emotionLabel: "Amused",
+	startFromAny: true,
+	startFromEmotions: [],
+	content: {
+		music: [],
+		video: [],
+		website: [],
+		activity: []
+	}
+});
+
+emotions.push({
+	emotionLabel: "Confident",
+	startFromAny: true,
+	startFromEmotions: [],
+	content: {
+		music: [],
+		video: [],
+		website: [],
+		activity: []
+	}
+});
+
+emotions.push({
+	emotionLabel: "Creative",
+	startFromAny: true,
+	startFromEmotions: [],
+	content: {
+		music: [],
+		video: [],
+		website: [],
+		activity: []
+	}
+});
+
+emotions.push({
+	emotionLabel: "Encouraged",
+	startFromAny: true,
+	startFromEmotions: [],
+	content: {
+		music: [],
+		video: [],
+		website: [],
+		activity: []
+	}
+});
+
+emotions.push({
+	emotionLabel: "Calm",
+	startFromAny: true,
+	startFromEmotions: [],
+	content: {
+		music: [],
+		video: [],
+		website: [],
+		activity: []
+	}
+});
+
+emotions.push({
+	emotionLabel: "Cathartic",
+	startFromAny: true,
+	startFromEmotions: [],
+	content: {
+		music: [],
+		video: [],
+		website: [],
+		activity: []
+	}
+});
+
+emotions.push({
+	emotionLabel: "Comforted",
+	startFromAny: true,
+	startFromEmotions: [],
+	content: {
+		music: [],
+		video: [],
+		website: [],
+		activity: []
+	}
+});
+
+emotions.push({
+	emotionLabel: "Warm and Fuzzy",
+	startFromAny: true,
+	startFromEmotions: [],
+	content: {
+		music: [],
+		video: [],
+		website: [],
+		activity: []
+	}
+});
+
+emotions.push({
+	emotionLabel: "Tickled",
+	startFromAny: true,
+	startFromEmotions: [],
+	content: {
+		music: [],
+		video: [],
+		website: [],
+		activity: []
+	}
+});
+
+emotions.push({
+	emotionLabel: "Valuable",
+	startFromAny: true,
+	startFromEmotions: [],
+	content: {
+		music: [],
+		video: [],
+		website: [],
+		activity: []
+	}
+});
+
+emotions.push({
+	emotionLabel: "In Control",
+	startFromAny: true,
+	startFromEmotions: [],
+	content: {
+		music: [],
+		video: [],
+		website: [],
+		activity: []
+	}
+});
+
+emotions.push({
+	emotionLabel: "Treat Yo Self",
+	startFromAny: true,
+	startFromEmotions: [],
+	content: {
+		music: [],
+		video: [],
+		website: [],
+		activity: []
+	}
+});
+
+emotions.push({
+	emotionLabel: "Relief",
+	startFromAny: true,
+	startFromEmotions: [],
+	content: {
+		music: [],
+		video: [],
+		website: [],
+		activity: []
 	}
 });
 
