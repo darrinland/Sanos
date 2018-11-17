@@ -53,6 +53,7 @@ body {
 	background-color: lightgreen;
 	border-radius: 12px;
 	text-align: center;
+	padding: 10px;
 }
 
 .start-over:hover {
