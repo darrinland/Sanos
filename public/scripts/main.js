@@ -22,7 +22,6 @@ function start() {
 
 	startHtml = startHtml + `</div></div>`;
 	document.getElementById("content-container").innerHTML = startHtml;
-	//foreach emotion create an emotion
 }
 
 function onStartEmotionSelected(startEmotion) {
