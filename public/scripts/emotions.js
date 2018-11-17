@@ -1,11 +1,38 @@
 let emotions = [];
+// let startEmotions = [
+// 	"Angry",
+// 	"Anxiety",
+// 	"Overwhelmed",
+// 	"Numb",
+// 	"Lonely",
+// 	"Sad"
+// ];
+
 let startEmotions = [
-	"Angry",
-	"Anxiety",
-	"Overwhelmed",
-	"Numb",
-	"Lonely",
-	"Sad"
+	{
+		label: "Angry",
+		color: "#d82222"
+	},
+	{
+		label: "Anxiety",
+		color: "#fca43a"
+	},
+	{
+		label: "Overwhelmed",
+		color: "#5de263"
+	},
+	{
+		label: "Numb",
+		color: "#47e3ff"
+	},
+	{
+		label: "Lonely",
+		color: "#4796ff"
+	},
+	{
+		label: "Sad",
+		color: "#475cff"
+	}
 ];
 
 emotions.push({
