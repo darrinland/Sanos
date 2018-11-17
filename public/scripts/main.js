@@ -9,7 +9,7 @@ function start() {
 		html +
 		`<div class="emotion-selector-container w3-animate-opacity">
 			<div class="question-prompt">Right now I feel</div>
-			<div class="">`;
+			<div class="start-emotion-options">`;
 
 	startEmotions.forEach(emotion => {
 		html =

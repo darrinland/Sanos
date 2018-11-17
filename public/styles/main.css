@@ -20,6 +20,10 @@ body {
 	flex-wrap: wrap;
 	justify-content: center;
 }
+.start-emotion-options {
+	max-width: 470px;
+	margin: 0px auto 16px;
+}
 
 .emotion-options {
 	display: flex;
