@@ -1,11 +1,10 @@
-let filteredEndEmotions = endEmotions;
-
 window.onload = () => {
 	start();
 };
 
 function start() {
 	clearPage();
+	console.log(emotions);
 	let startHtml = "";
 	startHtml =
 		startHtml +
@@ -16,7 +15,9 @@ function start() {
 	emotions.forEach(emotion => {
 		startHtml =
 			startHtml +
-			`<div class="emotion" onclick="onStartEmotionSelected('${emotion}')">${emotion}</div>`;
+			`<div class="emotion" onclick="onStartEmotionSelected('${
+				emotion.emotion
+			}')">${emotion.emotion}</div>`;
 	});
 
 	startHtml = startHtml + `</div></div>`;
@@ -52,5 +53,4 @@ function onEndEmotionSelected(startEmotion, endEmotion) {
 
 function clearPage() {
 	document.getElementById("content-container").innerHTML = "";
-	filteredEndEmotions = endEmotions;
 }

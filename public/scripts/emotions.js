@@ -2,7 +2,7 @@ let emotions = [];
 
 emotions.push({
 	emotion: "Happy",
-	startFromAny: True,
+	startFromAny: true,
 	startFromEmotions: [],
 	content: {
 		music: [
