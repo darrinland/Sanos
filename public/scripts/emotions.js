@@ -45,69 +45,69 @@ emotions.push({
 		music: [
 			{
 				label: " Little Bird by. Ghost of Paul Revere",
-				url: "https://www.youtube.com/watch?v=-rcQj3aNbgE"
+				url: "https://www.youtube.com/embed/-rcQj3aNbgE"
 			},
 			{
 				label: " Mr. Blue Sky from Guardians of the Galaxy Soundtrack",
-				url: "https://www.youtube.com/watch?v=RoiUK4XlJts"
+				url: "https://www.youtube.com/embed/RoiUK4XlJts"
 			},
 			{
 				label: " Stevie Wonder Don't You Worry About a Thing",
-				url: "https://www.youtube.com/watch?v=QkBUx6Zn6mo"
+				url: "https://www.youtube.com/embed/QkBUx6Zn6mo"
 			},
 			{
 				label: " Play for Change",
-				url: "https://www.youtube.com/watch?v=Us-TVg40ExM"
+				url: "https://www.youtube.com/embed/Us-TVg40ExM"
 			},
 			{
 				label: " Hakuna Matata",
-				url: "https://www.youtube.com/watch?v=D4zG1Tnt5A8"
+				url: "https://www.youtube.com/embed/D4zG1Tnt5A8"
 			},
 			{
 				label: " Life is a Happy Song from the Muppets",
-				url: "https://www.youtube.com/watch?v=t9_zKm2Ewaw"
+				url: "https://www.youtube.com/embed/t9_zKm2Ewaw"
 			},
 			{
 				label: " Africa by Toto",
-				url: "https://www.youtube.com/watch?v=FTQbiNvZqaY"
+				url: "https://www.youtube.com/embed/FTQbiNvZqaY"
 			},
 			{
 				label: " Dont Worry Be Happy",
-				url: "https://www.youtube.com/watch?v=d-diB65scQU"
+				url: "https://www.youtube.com/embed/d-diB65scQU"
 			}
 		],
 		video: [
 			{
 				label: " Funny Animal Videos",
-				url: "https://www.youtube.com/watch?v=xO8Cz-9qKTI"
+				url: "https://www.youtube.com/embed/xO8Cz-9qKTI"
 			},
 			{
 				label: " Funny Baby Videos",
-				url: "https://www.youtube.com/watch?v=hkANcahJA4U"
+				url: "https://www.youtube.com/embed/hkANcahJA4U"
 			},
 			{
 				label: " Ted Talk on Scientifically proven ways to become Happier",
-				url: "https://www.youtube.com/watch?v=8KkKuTCFvzI"
+				url: "https://www.youtube.com/embed/8KkKuTCFvzI"
 			},
 			{
 				label: " east west bowl",
-				url: "https://www.youtube.com/watch?v=rT1nGjGM2p8"
+				url: "https://www.youtube.com/embed/rT1nGjGM2p8"
 			},
 			{
 				label: " helium chior kid",
-				url: "https://www.youtube.com/watch?v=29N-CoSGP2c"
+				url: "https://www.youtube.com/embed/29N-CoSGP2c"
 			},
 			{
 				label: " Artic fox laughing",
-				url: "https://www.youtube.com/watch?v=XUFh9MQAb5c"
+				url: "https://www.youtube.com/embed/XUFh9MQAb5c"
 			},
 			{
 				label: " Funny cat videos",
-				url: "https://www.youtube.com/watch?v=XyNlqQId-nk"
+				url: "https://www.youtube.com/embed/XyNlqQId-nk"
 			},
 			{
 				label: " You is Kind ",
-				url: "https://www.youtube.com/watch?v=3H50llsHm3k"
+				url: "https://www.youtube.com/embed/3H50llsHm3k"
 			}
 		],
 		website: [
@@ -128,7 +128,7 @@ emotions.push({
 			},
 			{
 				label: " Make people smile project ",
-				url: "https://www.youtube.com/watch?v=8YuBxP4CKZc"
+				url: "https://www.youtube.com/embed/8YuBxP4CKZc"
 			},
 			{
 				label: " Live cam of Disneyland",
@@ -173,57 +173,57 @@ emotions.push({
 		music: [
 			{
 				label: " I love my shirt",
-				url: "https://www.youtube.com/watch?v=miAVhZ6rKFo"
+				url: "https://www.youtube.com/embed/miAVhZ6rKFo"
 			},
 			{
 				label: " Eye of the Tiger",
-				url: "https://www.youtube.com/watch?v=QEjgPh4SEmU"
+				url: "https://www.youtube.com/embed/QEjgPh4SEmU"
 			},
 			{
 				label: " Don't Stop Believin ",
-				url: "https://www.youtube.com/watch?v=1k8craCGpgs"
+				url: "https://www.youtube.com/embed/1k8craCGpgs"
 			},
 			{
 				label: " Wavin Flag",
-				url: "https://www.youtube.com/watch?v=WTJSt4wP2ME"
+				url: "https://www.youtube.com/embed/WTJSt4wP2ME"
 			},
 			{
 				label: " not throwing away my shot",
-				url: "https://www.youtube.com/watch?v=Ic7NqP_YGlg"
+				url: "https://www.youtube.com/embed/Ic7NqP_YGlg"
 			},
 			{
 				label: " Cant Hold Us",
-				url: "https://www.youtube.com/watch?v=NfOPFcNJPVM"
+				url: "https://www.youtube.com/embed/NfOPFcNJPVM"
 			},
 			{
 				label: " Whatever Ti Takes",
-				url: "https://www.youtube.com/watch?v=gOsM-DYAEhY"
+				url: "https://www.youtube.com/embed/gOsM-DYAEhY"
 			}
 		],
 		video: [
 			{
 				label: " Invincible motivational video",
-				url: "https://www.youtube.com/watch?v=zIFVwF35Jb0"
+				url: "https://www.youtube.com/embed/zIFVwF35Jb0"
 			},
 			{
 				label: " What's so Funny About Mental Illness",
-				url: "https://www.youtube.com/watch?v=mbbMLOZjUYI"
+				url: "https://www.youtube.com/embed/mbbMLOZjUYI"
 			},
 			{
 				label: " The Power of Vulnerability",
-				url: "https://www.youtube.com/watch?v=iCvmsMzlF7o&t=6s"
+				url: "https://www.youtube.com/embed/iCvmsMzlF7o&t=6s"
 			},
 			{
 				label: " You is Kind ",
-				url: "https://www.youtube.com/watch?v=3H50llsHm3k"
+				url: "https://www.youtube.com/embed/3H50llsHm3k"
 			},
 			{
 				label: " Rocky Training",
-				url: "https://www.youtube.com/watch?v=ABg0c_E7OOI"
+				url: "https://www.youtube.com/embed/ABg0c_E7OOI"
 			},
 			{
 				label: " Power of Motivation",
-				url: "https://www.youtube.com/watch?v=9hdSLiHaJz8"
+				url: "https://www.youtube.com/embed/9hdSLiHaJz8"
 			}
 		],
 		website: [
@@ -242,7 +242,7 @@ emotions.push({
 			{ label: " Educate yourself!", url: "https://www.khanacademy.org/" },
 			{
 				label: " DO IT by Shia Labouf ",
-				url: "https://www.youtube.com/watch?v=ZXsQAXx_ao0"
+				url: "https://www.youtube.com/embed/ZXsQAXx_ao0"
 			},
 			{
 				label: " A website full of location based opportunities to serve",
@@ -280,7 +280,7 @@ emotions.push({
 			},
 			{
 				label:
-					" Put on Aviators and listen to this: https://www.youtube.com/watch?v=_DNUv3QfqyM&index=1&list=PL493TQZToFwGtwMh1_9Y_nuralywpdQ45",
+					" Put on Aviators and listen to this: https://www.youtube.com/embed/_DNUv3QfqyM&index=1&list=PL493TQZToFwGtwMh1_9Y_nuralywpdQ45",
 				url: ""
 			},
 			{ label: " Learn something new", url: "" },
@@ -301,64 +301,64 @@ emotions.push({
 		music: [
 			{
 				label: " wiskey lulliby",
-				url: "https://www.youtube.com/watch?v=IZbN_nmxAGk"
+				url: "https://www.youtube.com/embed/IZbN_nmxAGk"
 			},
 			{
 				label: " My Heart Will Go On ",
-				url: "https://www.youtube.com/watch?v=DNyKDI9pn0Q"
+				url: "https://www.youtube.com/embed/DNyKDI9pn0Q"
 			},
 			{
 				label: " in the arms of the angles",
-				url: "https://www.youtube.com/watch?v=9gspElv1yvc"
+				url: "https://www.youtube.com/embed/9gspElv1yvc"
 			},
 			{
 				label: " i am one with the force",
-				url: "https://www.youtube.com/watch?v=FXcZ-4cPRhw"
+				url: "https://www.youtube.com/embed/FXcZ-4cPRhw"
 			},
 			{
 				label: " lil sebastian",
-				url: "https://www.youtube.com/watch?v=k1jUTCH-83U"
+				url: "https://www.youtube.com/embed/k1jUTCH-83U"
 			},
 			{
 				label: " christmas shoes",
-				url: "https://www.youtube.com/watch?v=1i9G60wvH7Y"
+				url: "https://www.youtube.com/embed/1i9G60wvH7Y"
 			},
 			{
 				label: " You Raise Me Up by Josh Groban",
-				url: "https://www.youtube.com/watch?v=aJxrX42WcjQ"
+				url: "https://www.youtube.com/embed/aJxrX42WcjQ"
 			}
 		],
 		video: [
 			{
 				label: " Chistian the Lion",
-				url: "https://www.youtube.com/watch?v=btuxO-C2IzE"
+				url: "https://www.youtube.com/embed/btuxO-C2IzE"
 			},
 			{
 				label: " The first four minutes of UP",
-				url: "https://www.youtube.com/watch?v=F2bk_9T482g"
+				url: "https://www.youtube.com/embed/F2bk_9T482g"
 			},
 			{
 				label: " how come he dont want me",
-				url: "https://www.youtube.com/watch?v=xIHscdMAG4c"
+				url: "https://www.youtube.com/embed/xIHscdMAG4c"
 			},
 			{
 				label: " 3rd Grade Dropout",
-				url: "https://www.youtube.com/watch?v=Bg_Q7KYWG1g"
+				url: "https://www.youtube.com/embed/Bg_Q7KYWG1g"
 			},
 			{
 				label: " little foots mom dies",
-				url: "https://www.youtube.com/watch?v=WbW8GgAWKi8"
+				url: "https://www.youtube.com/embed/WbW8GgAWKi8"
 			},
 			{
 				label: " Feeling all the feels!",
-				url: "https://www.youtube.com/watch?v=gAMbkJk6gnE"
+				url: "https://www.youtube.com/embed/gAMbkJk6gnE"
 			}
 		],
 		website: [
 			{
 				label: " The Nicest Place on the Internet",
 				url:
-					"https://www.youtube.com/watch?v=HZ-IhHzaOwA&list=PL8D2A19E981586AC2&index=2"
+					"https://www.youtube.com/embed/HZ-IhHzaOwA&list=PL8D2A19E981586AC2&index=2"
 			},
 			{
 				label: " Punch the Computer",
@@ -394,16 +394,16 @@ emotions.push({
 		music: [
 			{
 				label: " Somewhere over the rainbow",
-				url: "https://www.youtube.com/watch?v=V1bFr2SWP1I"
+				url: "https://www.youtube.com/embed/V1bFr2SWP1I"
 			},
 			{
 				label: " Calm Piano Music",
-				url: "https://www.youtube.com/watch?v=rLMHGjoxJdQ"
+				url: "https://www.youtube.com/embed/rLMHGjoxJdQ"
 			},
-			{ label: " Waves", url: "https://www.youtube.com/watch?v=WwzbkaqT8Ow" },
+			{ label: " Waves", url: "https://www.youtube.com/embed/WwzbkaqT8Ow" },
 			{
 				label: " Relaxing Guitar",
-				url: "https://www.youtube.com/watch?v=j4OuCMnY43E"
+				url: "https://www.youtube.com/embed/j4OuCMnY43E"
 			}
 		],
 		video: [
@@ -414,15 +414,15 @@ emotions.push({
 			},
 			{
 				label: " Oddly Satisfying compilation",
-				url: "https://www.youtube.com/watch?v=T1sa8uMvpp8"
+				url: "https://www.youtube.com/embed/T1sa8uMvpp8"
 			},
 			{
 				label: " Happy Trees Bob Ross ",
-				url: "https://www.youtube.com/watch?v=oh5p5f5_-7A"
+				url: "https://www.youtube.com/embed/oh5p5f5_-7A"
 			},
 			{
 				label: " Deep breathing ",
-				url: "https://www.youtube.com/watch?v=aXItOY0sLRY"
+				url: "https://www.youtube.com/embed/aXItOY0sLRY"
 			}
 		],
 		website: [
@@ -487,40 +487,40 @@ emotions.push({
 		music: [
 			{
 				label: " Somewhere over the rainbow",
-				url: "https://www.youtube.com/watch?v=V1bFr2SWP1I"
+				url: "https://www.youtube.com/embed/V1bFr2SWP1I"
 			},
 			{
 				label: " For You Now by Bruno Merz",
-				url: "https://www.youtube.com/watch?v=HKu9EK5N4qw"
+				url: "https://www.youtube.com/embed/HKu9EK5N4qw"
 			},
 			{
 				label: " I Won't Give Up by Jason Mraz",
-				url: "https://www.youtube.com/watch?v=0cNhpIzUreI"
+				url: "https://www.youtube.com/embed/0cNhpIzUreI"
 			},
 			{
 				label: " they can never take our freedom",
-				url: "https://www.youtube.com/watch?v=gr_OpFxCx-A"
+				url: "https://www.youtube.com/embed/gr_OpFxCx-A"
 			},
 			{
 				label: " You Raise Me Up by Josh Groban ",
-				url: "https://www.youtube.com/watch?v=aJxrX42WcjQ"
+				url: "https://www.youtube.com/embed/aJxrX42WcjQ"
 			}
 		],
 		video: [
 			{
 				label: " You is Kind ",
-				url: "https://www.youtube.com/watch?v=3H50llsHm3k"
+				url: "https://www.youtube.com/embed/3H50llsHm3k"
 			},
 			{
 				label: " Hope Motivational",
-				url: "https://www.youtube.com/watch?v=Ie-ByDkfxG8"
+				url: "https://www.youtube.com/embed/Ie-ByDkfxG8"
 			}
 		],
 		website: [
 			{
 				label: " The Nicest Place on the Internet",
 				url:
-					"https://www.youtube.com/watch?v=HZ-IhHzaOwA&list=PL8D2A19E981586AC2&index=2"
+					"https://www.youtube.com/embed/HZ-IhHzaOwA&list=PL8D2A19E981586AC2&index=2"
 			},
 			{
 				label: " A button that makes everything okay",
@@ -529,7 +529,7 @@ emotions.push({
 			{
 				label: " The Power of Vulnerability ",
 				url:
-					"https://www.youtube.com/watch?v=iCvmsMzlF7o&list=PLs1f8FLNPv3X_zvmigytXCEaZVXFa973J&index=8"
+					"https://www.youtube.com/embed/iCvmsMzlF7o&list=PLs1f8FLNPv3X_zvmigytXCEaZVXFa973J&index=8"
 			},
 			{
 				label: " Students Against Depression",
@@ -559,36 +559,36 @@ emotions.push({
 		music: [
 			{
 				label: " Rainbow Connection",
-				url: "https://www.youtube.com/watch?v=WS3Lkc6Gzlk"
+				url: "https://www.youtube.com/embed/WS3Lkc6Gzlk"
 			},
 			{
 				label: " we are the world",
-				url: "https://www.youtube.com/watch?v=M9BNoNFKCBI"
+				url: "https://www.youtube.com/embed/M9BNoNFKCBI"
 			},
 			{
 				label: " i wont give up on us",
-				url: "https://www.youtube.com/watch?v=0cNhpIzUreI"
+				url: "https://www.youtube.com/embed/0cNhpIzUreI"
 			}
 		],
 		video: [
 			{
 				label: " The Power of Vulnerability",
-				url: "https://www.youtube.com/watch?v=iCvmsMzlF7o&t=6s"
+				url: "https://www.youtube.com/embed/iCvmsMzlF7o&t=6s"
 			},
 			{
 				label: " The Hidden Truth About Human Connection",
-				url: "https://www.youtube.com/watch?v=23vBLxJQk-Y"
+				url: "https://www.youtube.com/embed/23vBLxJQk-Y"
 			},
 			{
 				label: " How to Make Friends When You Are Socially Awkward",
-				url: "https://www.youtube.com/watch?v=MP5CkokeygQ"
+				url: "https://www.youtube.com/embed/MP5CkokeygQ"
 			}
 		],
 		website: [
 			{
 				label: " The Nicest Place on the Internet",
 				url:
-					"https://www.youtube.com/watch?v=HZ-IhHzaOwA&list=PL8D2A19E981586AC2&index=2"
+					"https://www.youtube.com/embed/HZ-IhHzaOwA&list=PL8D2A19E981586AC2&index=2"
 			},
 			{
 				label: " 56 Random Acts of Kindness",
@@ -624,37 +624,37 @@ emotions.push({
 		music: [
 			{
 				label: " the garden of your mind",
-				url: "https://www.youtube.com/watch?v=OFzXaFbxDcM"
+				url: "https://www.youtube.com/embed/OFzXaFbxDcM"
 			},
 			{
 				label: " Inspirational Music",
-				url: "https://www.youtube.com/watch?v=c9V3FBJ8FoA"
+				url: "https://www.youtube.com/embed/c9V3FBJ8FoA"
 			}
 		],
 		video: [
 			{
 				label: " diy life hacks",
-				url: "https://www.youtube.com/watch?v=9UCny7hCeiI"
+				url: "https://www.youtube.com/embed/9UCny7hCeiI"
 			},
 			{
 				label: " life hacks 2",
-				url: "https://www.youtube.com/watch?v=CdLQ-mJi7rU"
+				url: "https://www.youtube.com/embed/CdLQ-mJi7rU"
 			},
 			{
 				label: " how to be creative",
-				url: "https://www.youtube.com/watch?v=zO2LdDpx-Tc"
+				url: "https://www.youtube.com/embed/zO2LdDpx-Tc"
 			},
 			{
 				label: " How to boost creativity",
-				url: "https://www.youtube.com/watch?v=_NHu6gM91aA"
+				url: "https://www.youtube.com/embed/_NHu6gM91aA"
 			},
 			{
 				label: " How to Widdle",
-				url: "https://www.youtube.com/watch?v=EB3USnPADvQ"
+				url: "https://www.youtube.com/embed/EB3USnPADvQ"
 			},
 			{
 				label: " Bob Ross ",
-				url: "https://www.youtube.com/watch?v=VlucWfTUo1A"
+				url: "https://www.youtube.com/embed/VlucWfTUo1A"
 			}
 		],
 		website: [
@@ -698,46 +698,46 @@ emotions.push({
 		music: [
 			{
 				label: " ignition remix",
-				url: "https://www.youtube.com/watch?v=sTQZhM7YfZk"
+				url: "https://www.youtube.com/embed/sTQZhM7YfZk"
 			},
 			{
 				label: " seaguls stop it now",
-				url: "https://www.youtube.com/watch?v=U9t-slLl30E"
+				url: "https://www.youtube.com/embed/U9t-slLl30E"
 			},
 			{
 				label: " nerd vs geek",
-				url: "https://www.youtube.com/watch?v=2Tvy_Pbe5NA"
+				url: "https://www.youtube.com/embed/2Tvy_Pbe5NA"
 			},
 			{
 				label: " rap battle of manliness",
-				url: "https://www.youtube.com/watch?v=_EzDRpkfaO4"
+				url: "https://www.youtube.com/embed/_EzDRpkfaO4"
 			},
 			{
 				label: " is mayonaise and instrument",
-				url: "https://www.youtube.com/watch?v=A5jnftBQw2U"
+				url: "https://www.youtube.com/embed/A5jnftBQw2U"
 			},
 			{
 				label: " innapropriate wedding songs",
-				url: "https://www.youtube.com/watch?v=I8S2u8_vSnc"
+				url: "https://www.youtube.com/embed/I8S2u8_vSnc"
 			}
 		],
 		video: [
 			{
 				label: " christmas childish gambino",
-				url: "https://www.youtube.com/watch?v=lZJ8yvg018Y&index=15&list=WL&t=0s"
+				url: "https://www.youtube.com/embed/lZJ8yvg018Y&index=15&list=WL&t=0s"
 			},
 			{
 				label: " harry potter pupped pals",
-				url: "https://www.youtube.com/watch?v=z09rvN3s9Kg"
+				url: "https://www.youtube.com/embed/z09rvN3s9Kg"
 			},
 			{
 				label: " numa numa",
-				url: "https://www.youtube.com/watch?v=KmtzQCSh6xk"
+				url: "https://www.youtube.com/embed/KmtzQCSh6xk"
 			},
-			{ label: " asdf", url: "https://www.youtube.com/watch?v=tKB4h9gvmm0" },
+			{ label: " asdf", url: "https://www.youtube.com/embed/tKB4h9gvmm0" },
 			{
 				label: " scott sterling",
-				url: "https://www.youtube.com/watch?v=8F9jXYOH2c0"
+				url: "https://www.youtube.com/embed/8F9jXYOH2c0"
 			}
 		],
 		website: [],
