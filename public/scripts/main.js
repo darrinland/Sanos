@@ -1,6 +1,8 @@
 window.onload = () => {
 	start();
 };
+let startColor = "";
+let endColor = "";
 
 function start() {
 	clearPage();
@@ -26,6 +28,9 @@ function start() {
 }
 
 function onStartEmotionSelected(startEmotion) {
+	startColor = startEmotions.filter(x => x.label === startEmotion)[0].color;
+	endColor = startColor;
+	applybackground();
 	addStartOverButton();
 	let html = `<div class="large">Right now I feel ${startEmotion}</div>`;
 	html =
@@ -89,7 +94,17 @@ function closeModal() {
 	document.getElementById("modal-content").innerHTML = "";
 }
 
+function applybackground() {
+	console.log(startColor, endColor);
+	document.getElementById(
+		"body"
+	).style = `background-image: linear-gradient(${startColor}, ${endColor})`;
+}
+
 function onEndEmotionSelected(startEmotion, endEmotion, element) {
+	endColor = emotions.filter(x => x.emotionLabel === endEmotion)[0].color;
+	applybackground();
+
 	let allEmotions = document.getElementsByClassName("emotion");
 	for (let i = 0; i < allEmotions.length; i++) {
 		let el = allEmotions[i];
@@ -114,6 +129,9 @@ function clearPage() {
 	document.getElementById("result-container").innerHTML = "";
 	document.getElementById("result-card-container").innerHTML = "";
 	document.getElementById("start-over-container").innerHTML = "";
+	startColor = "white";
+	endColor = "white";
+	applybackground();
 }
 
 function addStartOverButton() {
