@@ -80,7 +80,7 @@ function getVideoCard(video) {
 				<div class="thumbnail">
 					<iframe width="200" 
 							height="100" 
-							src="https://www.youtube.com/embed/w7zN2GT_Zg4" 
+							src="${video.url}"
 							frameborder="0" 
 							allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
 							allowfullscreen>
@@ -96,26 +96,27 @@ function showModal(videoLabel, videoUrl) {
 	document.getElementById(
 		"modal-content"
 	).innerHTML = `<iframe class="modal-iframe"
-																src="${videoUrl}" 
-																frameborder="0" 
-																allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
-																allowfullscreen>
-														</iframe>`;
+						src="${videoUrl}?autoplay=1" 
+						frameborder="0" 
+						allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" 
+						allowfullscreen>
+				</iframe>`;
 }
 function closeModal() {
 	document.getElementById("modal-wrapper").style = "display:none";
+	document.getElementById("modal-content").innerHTML = "";
 }
 
 function onEndEmotionSelected(startEmotion, endEmotion, element) {
-	// let allEmotions = document.getElementsByClassName("emotion");
-	// for (let i = 0; i < allEmotions.length; i++) {
-	// 	let el = allEmotions[i];
-	// 	el.removeAttribute("style");
-	// }
-	// element.setAttribute(
-	// 	"style",
-	// 	"border-style:solid;border-color:black;border-width:2px;"
-	// );
+	let allEmotions = document.getElementsByClassName("emotion");
+	for (let i = 0; i < allEmotions.length; i++) {
+		let el = allEmotions[i];
+		el.removeAttribute("style");
+	}
+	element.setAttribute(
+		"style",
+		"border-style:solid;border-color:black;border-width:1px;"
+	);
 	buildEmotionContent(endEmotion);
 }
 
