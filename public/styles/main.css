@@ -26,7 +26,7 @@ body {
 	flex-wrap: wrap;
 	justify-content: center;
 	margin: 0px auto 16px;
-	max-width: 400px;
+	max-width: 470px;
 }
 
 .start-emotion {
@@ -133,12 +133,16 @@ body {
 	background: white;
 	position: fixed;
 	width: 90vw;
-	height: 90vh;
+	padding-bottom: 50px;
 	margin: 5vh 5vw;
 }
 
 .modal-close {
 	text-align: right;
+}
+
+.modal-close > i {
+	font-size: 35px;
 }
 
 .modal-close:hover {
@@ -153,6 +157,7 @@ body {
 	font-size: 24px;
 	font-weight: bold;
 	margin-left: 10px;
+	padding-bottom: 8px;
 }
 
 .modal-iframe {
