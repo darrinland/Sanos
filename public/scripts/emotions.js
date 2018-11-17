@@ -1,8 +1,17 @@
 let emotions = [];
+let startemotions = [
+	"Anger",
+	"Anxiety",
+	"Overwhelmed",
+	"Numb",
+	"Lonely",
+	"Sadness"
+];
 
 emotions.push({
 	emotionLabel: "Happy",
 	startFromAny: true,
+	color: "0xffff",
 	startFromEmotions: [],
 	content: {
 		music: [
@@ -52,12 +61,13 @@ emotions.push({
 		],
 		website: [
 			{ label: " Good News", url: "https://www.today.com/news/good-news" }
-		]
+		],
+		activity: []
 	}
 });
 
 emotions.push({
-	emotionLabel: "Relaxed",
+	emotionLabel: "Empowered",
 	startFromAny: true,
 	startFromEmotions: [],
 	content: {
@@ -69,79 +79,7 @@ emotions.push({
 });
 
 emotions.push({
-	emotionLabel: "Carefree",
-	startFromAny: true,
-	startFromEmotions: [],
-	content: {
-		music: [],
-		video: [],
-		website: [],
-		activity: []
-	}
-});
-
-emotions.push({
-	emotionLabel: "Connected",
-	startFromAny: true,
-	startFromEmotions: [],
-	content: {
-		music: [],
-		video: [],
-		website: [],
-		activity: []
-	}
-});
-
-emotions.push({
-	emotionLabel: "Loved",
-	startFromAny: true,
-	startFromEmotions: [],
-	content: {
-		music: [],
-		video: [],
-		website: [],
-		activity: []
-	}
-});
-
-emotions.push({
-	emotionLabel: "Amused",
-	startFromAny: true,
-	startFromEmotions: [],
-	content: {
-		music: [],
-		video: [],
-		website: [],
-		activity: []
-	}
-});
-
-emotions.push({
-	emotionLabel: "Confident",
-	startFromAny: true,
-	startFromEmotions: [],
-	content: {
-		music: [],
-		video: [],
-		website: [],
-		activity: []
-	}
-});
-
-emotions.push({
-	emotionLabel: "Creative",
-	startFromAny: true,
-	startFromEmotions: [],
-	content: {
-		music: [],
-		video: [],
-		website: [],
-		activity: []
-	}
-});
-
-emotions.push({
-	emotionLabel: "Encouraged",
+	emotionLabel: "ALL THE FEELS",
 	startFromAny: true,
 	startFromEmotions: [],
 	content: {
@@ -165,7 +103,7 @@ emotions.push({
 });
 
 emotions.push({
-	emotionLabel: "Cathartic",
+	emotionLabel: "Hope",
 	startFromAny: true,
 	startFromEmotions: [],
 	content: {
@@ -177,7 +115,7 @@ emotions.push({
 });
 
 emotions.push({
-	emotionLabel: "Comforted",
+	emotionLabel: "Connected",
 	startFromAny: true,
 	startFromEmotions: [],
 	content: {
@@ -189,7 +127,7 @@ emotions.push({
 });
 
 emotions.push({
-	emotionLabel: "Warm and Fuzzy",
+	emotionLabel: "Creative",
 	startFromAny: true,
 	startFromEmotions: [],
 	content: {
@@ -201,55 +139,7 @@ emotions.push({
 });
 
 emotions.push({
-	emotionLabel: "Tickled",
-	startFromAny: true,
-	startFromEmotions: [],
-	content: {
-		music: [],
-		video: [],
-		website: [],
-		activity: []
-	}
-});
-
-emotions.push({
-	emotionLabel: "Valuable",
-	startFromAny: true,
-	startFromEmotions: [],
-	content: {
-		music: [],
-		video: [],
-		website: [],
-		activity: []
-	}
-});
-
-emotions.push({
-	emotionLabel: "In Control",
-	startFromAny: true,
-	startFromEmotions: [],
-	content: {
-		music: [],
-		video: [],
-		website: [],
-		activity: []
-	}
-});
-
-emotions.push({
-	emotionLabel: "Treat Yo Self",
-	startFromAny: true,
-	startFromEmotions: [],
-	content: {
-		music: [],
-		video: [],
-		website: [],
-		activity: []
-	}
-});
-
-emotions.push({
-	emotionLabel: "Relief",
+	emotionLabel: "Goofy",
 	startFromAny: true,
 	startFromEmotions: [],
 	content: {
