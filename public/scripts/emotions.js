@@ -42,23 +42,23 @@ emotions.push({
 	content: {
 		music: [
 			{
-				label: "Little Bird by Ghost of Paul Revere",
+				label: " Little Bird by. Ghost of Paul Revere",
 				url: "https://www.youtube.com/watch?v=-rcQj3aNbgE"
 			},
 			{
-				label: "Mr. Blue Sky from Guardians of the Galaxy Soundtrack",
+				label: " Mr. Blue Sky from Guardians of the Galaxy Soundtrack",
 				url: "https://www.youtube.com/watch?v=RoiUK4XlJts"
 			},
 			{
-				label: "Stevie Wonder Don't You Worry About a Thing",
+				label: " Stevie Wonder Don't You Worry About a Thing",
 				url: "https://www.youtube.com/watch?v=QkBUx6Zn6mo"
 			},
 			{
-				label: "Play for Change",
+				label: " Play for Change",
 				url: "https://www.youtube.com/watch?v=Us-TVg40ExM"
 			},
 			{
-				label: "Hakuna Matata",
+				label: " Hakuna Matata",
 				url: "https://www.youtube.com/watch?v=D4zG1Tnt5A8"
 			},
 			{
@@ -77,24 +77,24 @@ emotions.push({
 		],
 		video: [
 			{
-				label: "Funny Animal Videos",
+				label: " Funny Animal Videos",
 				url: "https://www.youtube.com/watch?v=xO8Cz-9qKTI"
 			},
 			{
-				label: "Funny Baby Videos",
+				label: " Funny Baby Videos",
 				url: "https://www.youtube.com/watch?v=hkANcahJA4U"
 			},
 			{
-				label: "Ted Talk on Scientifically proven ways to become Happier",
+				label: " Ted Talk on Scientifically proven ways to become Happier",
 				url: "https://www.youtube.com/watch?v=8KkKuTCFvzI"
 			},
 			{
-				label: "east west bowl",
+				label: " east west bowl",
 				url:
 					"https://www.youtube.com/watch?v=rT1nGjGM2p8&index=3&t=0s&list=PLHzW2SpMZ8hsbsRUVNqxDyAe4iRKmzk3T"
 			},
 			{
-				label: "helium chior kid",
+				label: " helium chior kid",
 				url: "https://www.youtube.com/watch?v=29N-CoSGP2c"
 			},
 			{
@@ -117,7 +117,7 @@ emotions.push({
 			}
 		],
 		website: [
-			{ label: "Good News", url: "https://www.today.com/news/good-news" },
+			{ label: " Good News", url: "https://www.today.com/news/good-news" },
 			{
 				label: " 1000 awesome things ",
 				url: "http://1000awesomethings.com/?cnn=yes"
@@ -690,8 +690,51 @@ emotions.push({
 	startFromAny: true,
 	startFromEmotions: [],
 	content: {
-		music: [],
-		video: [],
+		music: [
+			{
+				label: " ignition remix",
+				url: "https://www.youtube.com/watch?v=sTQZhM7YfZk"
+			},
+			{
+				label: " seaguls stop it now",
+				url: "https://www.youtube.com/watch?v=U9t-slLl30E"
+			},
+			{
+				label: " nerd vs geek",
+				url: "https://www.youtube.com/watch?v=2Tvy_Pbe5NA"
+			},
+			{
+				label: " rap battle of manliness",
+				url: "https://www.youtube.com/watch?v=_EzDRpkfaO4"
+			},
+			{
+				label: " is mayonaise and instrument",
+				url: "https://www.youtube.com/watch?v=A5jnftBQw2U"
+			},
+			{
+				label: " innapropriate wedding songs",
+				url: "https://www.youtube.com/watch?v=I8S2u8_vSnc"
+			}
+		],
+		video: [
+			{
+				label: " christmas childish gambino",
+				url: "https://www.youtube.com/watch?v=lZJ8yvg018Y&index=15&list=WL&t=0s"
+			},
+			{
+				label: " harry potter pupped pals",
+				url: "https://www.youtube.com/watch?v=z09rvN3s9Kg"
+			},
+			{
+				label: " numa numa",
+				url: "https://www.youtube.com/watch?v=KmtzQCSh6xk"
+			},
+			{ label: " asdf", url: "https://www.youtube.com/watch?v=tKB4h9gvmm0" },
+			{
+				label: " scott sterling",
+				url: "https://www.youtube.com/watch?v=8F9jXYOH2c0"
+			}
+		],
 		website: [],
 		activity: []
 	}
