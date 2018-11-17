@@ -133,8 +133,9 @@ body {
 	background: white;
 	position: fixed;
 	width: 90vw;
+	max-width: 900px;
 	padding-bottom: 50px;
-	margin: 5vh 5vw;
+	margin: 5vh auto;
 }
 
 .modal-close {
@@ -162,5 +163,6 @@ body {
 
 .modal-iframe {
 	width: 85vw;
+	max-width: 800px;
 	height: 400px;
 }

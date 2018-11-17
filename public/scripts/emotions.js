@@ -740,6 +740,25 @@ emotions.push({
 	}
 });
 
+emotions.forEach(e => {
+	e.content.video.forEach(v => {
+		v.label = v.label.replace(/'/gi, `\\'`);
+		console.log(v.label);
+	});
+	e.content.music.forEach(v => {
+		v.label = v.label.replace(/'/gi, `\\'`);
+		console.log(v.label);
+	});
+	e.content.website.forEach(v => {
+		v.label = v.label.replace(/'/gi, `\\'`);
+		console.log(v.label);
+	});
+	e.content.activity.forEach(v => {
+		v.label = v.label.replace(/'/gi, `\\'`);
+		console.log(v.label);
+	});
+});
+
 function getSmallHTMLYouTubeEmbed(url) {
 	let beginning = '<iframe width="300" height="215" src=';
 	let ending = `${url} frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`;
