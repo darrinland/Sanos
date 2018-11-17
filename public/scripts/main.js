@@ -1,27 +1,26 @@
-let filteredEndEmotions = endEmotions;
-
 window.onload = () => {
 	start();
 };
 
 function start() {
 	clearPage();
-	let startHtml = "";
-	startHtml =
-		startHtml +
+	let html = "";
+	html =
+		html +
 		`<div class="emotion-selector-container w3-animate-opacity">
-								<div class="question-prompt">Right now I feel:</div>
-								<div class="emotion-options">`;
+			<div class="question-prompt">Right now I feel:</div>
+			<div class="emotion-options">`;
 
 	emotions.forEach(emotion => {
-		startHtml =
-			startHtml +
-			`<div class="emotion" onclick="onStartEmotionSelected('${emotion}')">${emotion}</div>`;
+		html =
+			html +
+			`<div class="emotion" onclick="onStartEmotionSelected('${
+				emotion.emotion
+			}')">${emotion.emotion}</div>`;
 	});
 
-	startHtml = startHtml + `</div></div>`;
-	document.getElementById("content-container").innerHTML = startHtml;
-	//foreach emotion create an emotion
+	html = html + `</div></div>`;
+	document.getElementById("content-container").innerHTML = html;
 }
 
 function onStartEmotionSelected(startEmotion) {
@@ -29,15 +28,15 @@ function onStartEmotionSelected(startEmotion) {
 	html =
 		html +
 		`<div class="emotion-selector-container w3-animate-opacity">
-								<div class="question-prompt">But I want to feel:</div>
-								<div class="emotion-options">`;
+			<div class="question-prompt">But I want to feel:</div>
+			<div class="emotion-options">`;
 
-	filteredEndEmotions = filteredEndEmotions.filter(x => x != startEmotion);
-	filteredEndEmotions.forEach(endEmotion => {
-		html =
-			html +
-			`<div class="emotion" onclick="onEndEmotionSelected('${startEmotion}', '${endEmotion}')">${endEmotion}</div>`;
-	});
+	// filteredEndEmotions = filteredEndEmotions.filter(x => x != startEmotion);
+	// filteredEndEmotions.forEach(endEmotion => {
+	// 	html =
+	// 		html +
+	// 		`<div class="emotion" onclick="onEndEmotionSelected('${startEmotion}', '${endEmotion}')">${endEmotion}</div>`;
+	// });
 
 	html = html + `</div></div>`;
 
@@ -52,5 +51,4 @@ function onEndEmotionSelected(startEmotion, endEmotion) {
 
 function clearPage() {
 	document.getElementById("content-container").innerHTML = "";
-	filteredEndEmotions = endEmotions;
 }
