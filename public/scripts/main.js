@@ -40,7 +40,9 @@ function onStartEmotionSelected(startEmotion) {
 	filteredEndEmotions.forEach(endEmotion => {
 		html =
 			html +
-			`<div class="emotion" onclick="onEndEmotionSelected('${startEmotion}', '${
+			`<div style="background-color:${
+				endEmotion.color
+			}; border-style:none; border-width:1px;" class="emotion" onclick="onEndEmotionSelected('${startEmotion}', '${
 				endEmotion.emotionLabel
 			}', this)">${endEmotion.emotionLabel}</div>`;
 	});
@@ -66,9 +68,17 @@ function buildEmotionContent(endEmotion) {
 	content.music.forEach(x => {
 		contentCards.push(getMusicCard(x));
 	});
+	content.website.forEach(x => {
+		contentCards.push(getWebsiteCard(x));
+	});
+	content.activity.forEach(x => {
+		contentCards.push(getActivityCard(x));
+	});
+
+	let cardsToAdd = shuffle(contentCards).slice(0, 9);
 
 	let html = "";
-	contentCards.forEach(x => {
+	cardsToAdd.forEach(x => {
 		html += x;
 	});
 
@@ -83,11 +93,18 @@ function onEndEmotionSelected(startEmotion, endEmotion, element) {
 	let allEmotions = document.getElementsByClassName("emotion");
 	for (let i = 0; i < allEmotions.length; i++) {
 		let el = allEmotions[i];
-		el.removeAttribute("style");
+		el.setAttribute(
+			"style",
+			el
+				.getAttribute("style")
+				.replace("border-style:solid", "border-style:none")
+		);
 	}
 	element.setAttribute(
 		"style",
-		"border-style:solid;border-color:black;border-width:1px;"
+		element
+			.getAttribute("style")
+			.replace("border-style:none", "border-style:solid")
 	);
 	buildEmotionContent(endEmotion);
 }
@@ -95,6 +112,7 @@ function onEndEmotionSelected(startEmotion, endEmotion, element) {
 function clearPage() {
 	document.getElementById("content-container").innerHTML = "";
 	document.getElementById("result-container").innerHTML = "";
+	document.getElementById("result-card-container").innerHTML = "";
 	document.getElementById("start-over-container").innerHTML = "";
 }
 
@@ -103,4 +121,24 @@ function addStartOverButton() {
 					<div><i class="material-icons"> refresh </i></div>
 				</div>`;
 	document.getElementById("start-over-container").innerHTML = html;
+}
+
+function shuffle(array) {
+	var currentIndex = array.length,
+		temporaryValue,
+		randomIndex;
+
+	// While there remain elements to shuffle...
+	while (0 !== currentIndex) {
+		// Pick a remaining element...
+		randomIndex = Math.floor(Math.random() * currentIndex);
+		currentIndex -= 1;
+
+		// And swap it with the current element.
+		temporaryValue = array[currentIndex];
+		array[currentIndex] = array[randomIndex];
+		array[randomIndex] = temporaryValue;
+	}
+
+	return array;
 }

@@ -52,7 +52,6 @@ function getMusicCard(music) {
 }
 
 function showMusicModal(musicLabel, musicUrl) {
-	console.log(musicLabel, musicUrl);
 	document.getElementById("modal-wrapper").style = "display:initial";
 	document.getElementById("modal-title").innerHTML = musicLabel.replace(
 		`\\`,
@@ -66,4 +65,41 @@ function showMusicModal(musicLabel, musicUrl) {
 						allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" 
 						allowfullscreen>
 				</iframe>`;
+}
+
+function getWebsiteCard(website) {
+	return `<div class="result-card" onclick="showWebsiteModal('${
+		website.label
+	}', '${website.url}')">
+				<div class="card-title">Visit this Site:</div>
+				<div class="card-label">${website.label.replace(`\\`, "")}</div>
+			</div>`;
+}
+
+function showWebsiteModal(websiteLabel, websiteUrl) {
+	document.getElementById("modal-wrapper").style = "display:initial";
+	document.getElementById("modal-title").innerHTML = websiteLabel.replace(
+		`\\`,
+		""
+	);
+	document.getElementById(
+		"modal-content"
+	).innerHTML = `<a href="${websiteUrl}" target="_blank">${websiteUrl}</a>`;
+}
+
+function getActivityCard(activity) {
+	return `<div class="result-card" onclick="showActivityModal('${
+		activity.label
+	}')">
+				<div class="card-title">Do this:</div>
+				<div class="card-label">${activity.label.replace(`\\`, "")}</div>
+			</div>`;
+}
+
+function showActivityModal(activityLabel) {
+	document.getElementById("modal-wrapper").style = "display:initial";
+	document.getElementById("modal-title").innerHTML = "Do This:";
+	document.getElementById(
+		"modal-content"
+	).innerHTML = `<div>${activityLabel.replace(`\\`, "")}</div>`;
 }
