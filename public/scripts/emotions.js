@@ -1,12 +1,4 @@
 let emotions = [];
-// let startEmotions = [
-// 	"Angry",
-// 	"Anxiety",
-// 	"Overwhelmed",
-// 	"Numb",
-// 	"Lonely",
-// 	"Sad"
-// ];
 
 let startEmotions = [
 	{
@@ -90,11 +82,11 @@ emotions.push({
 				url: "https://www.youtube.com/embed/8KkKuTCFvzI"
 			},
 			{
-				label: " east west bowl",
+				label: " East west bowl",
 				url: "https://www.youtube.com/embed/rT1nGjGM2p8"
 			},
 			{
-				label: " helium chior kid",
+				label: " Helium chior kid",
 				url: "https://www.youtube.com/embed/29N-CoSGP2c"
 			},
 			{
@@ -188,7 +180,7 @@ emotions.push({
 				url: "https://www.youtube.com/embed/WTJSt4wP2ME"
 			},
 			{
-				label: " not throwing away my shot",
+				label: " Not throwing away my shot",
 				url: "https://www.youtube.com/embed/Ic7NqP_YGlg"
 			},
 			{
@@ -196,7 +188,7 @@ emotions.push({
 				url: "https://www.youtube.com/embed/NfOPFcNJPVM"
 			},
 			{
-				label: " Whatever Ti Takes",
+				label: " Whatever TI Takes",
 				url: "https://www.youtube.com/embed/gOsM-DYAEhY"
 			}
 		],
@@ -297,7 +289,7 @@ emotions.push({
 	content: {
 		music: [
 			{
-				label: " wiskey lulliby",
+				label: " Wiskey Lullabye",
 				url: "https://www.youtube.com/embed/IZbN_nmxAGk"
 			},
 			{
@@ -305,19 +297,19 @@ emotions.push({
 				url: "https://www.youtube.com/embed/DNyKDI9pn0Q"
 			},
 			{
-				label: " in the arms of the angles",
+				label: " In the arms of the angles",
 				url: "https://www.youtube.com/embed/9gspElv1yvc"
 			},
 			{
-				label: " i am one with the force",
+				label: " I am one with the force",
 				url: "https://www.youtube.com/embed/FXcZ-4cPRhw"
 			},
 			{
-				label: " lil sebastian",
+				label: " Lil Sebastian",
 				url: "https://www.youtube.com/embed/k1jUTCH-83U"
 			},
 			{
-				label: " christmas shoes",
+				label: " Christmas shoes",
 				url: "https://www.youtube.com/embed/1i9G60wvH7Y"
 			},
 			{
@@ -335,7 +327,7 @@ emotions.push({
 				url: "https://www.youtube.com/embed/F2bk_9T482g"
 			},
 			{
-				label: " how come he dont want me",
+				label: " How come he don't want me",
 				url: "https://www.youtube.com/embed/xIHscdMAG4c"
 			},
 			{
@@ -343,7 +335,7 @@ emotions.push({
 				url: "https://www.youtube.com/embed/Bg_Q7KYWG1g"
 			},
 			{
-				label: " little foots mom dies",
+				label: " Little Foot's Mother Dies",
 				url: "https://www.youtube.com/embed/WbW8GgAWKi8"
 			},
 			{
@@ -443,7 +435,7 @@ emotions.push({
 				url: "http://make-everything-ok.com/"
 			},
 			{
-				label: " calm your anxious mind",
+				label: " Calm your anxious mind",
 				url:
 					"https://wiredforhappy.com/100-smart-ways-to-calm-your-anxious-mind/"
 			},
@@ -492,7 +484,7 @@ emotions.push({
 				url: "https://www.youtube.com/embed/0cNhpIzUreI"
 			},
 			{
-				label: " they can never take our freedom",
+				label: " They can never take our freedom",
 				url: "https://www.youtube.com/embed/gr_OpFxCx-A"
 			},
 			{
@@ -552,11 +544,11 @@ emotions.push({
 				url: "https://www.youtube.com/embed/WS3Lkc6Gzlk"
 			},
 			{
-				label: " we are the world",
+				label: " We are the world",
 				url: "https://www.youtube.com/embed/M9BNoNFKCBI"
 			},
 			{
-				label: " i wont give up on us",
+				label: " I won't give up on us",
 				url: "https://www.youtube.com/embed/0cNhpIzUreI"
 			}
 		],
@@ -609,7 +601,7 @@ emotions.push({
 	content: {
 		music: [
 			{
-				label: " the garden of your mind",
+				label: " The garden of your mind",
 				url: "https://www.youtube.com/embed/OFzXaFbxDcM"
 			},
 			{
@@ -619,15 +611,15 @@ emotions.push({
 		],
 		video: [
 			{
-				label: " diy life hacks",
+				label: " DIY life hacks",
 				url: "https://www.youtube.com/embed/9UCny7hCeiI"
 			},
 			{
-				label: " life hacks 2",
+				label: " Life hacks 2",
 				url: "https://www.youtube.com/embed/CdLQ-mJi7rU"
 			},
 			{
-				label: " how to be creative",
+				label: " How to be creative",
 				url: "https://www.youtube.com/embed/zO2LdDpx-Tc"
 			},
 			{
@@ -684,46 +676,46 @@ emotions.push({
 	content: {
 		music: [
 			{
-				label: " ignition remix",
+				label: " Ignition Remix",
 				url: "https://www.youtube.com/embed/sTQZhM7YfZk"
 			},
 			{
-				label: " seaguls stop it now",
+				label: " Seaguls Stop it Now",
 				url: "https://www.youtube.com/embed/U9t-slLl30E"
 			},
 			{
-				label: " nerd vs geek",
+				label: " Nerd vs Geek",
 				url: "https://www.youtube.com/embed/2Tvy_Pbe5NA"
 			},
 			{
-				label: " rap battle of manliness",
+				label: " Rap battle of manliness",
 				url: "https://www.youtube.com/embed/_EzDRpkfaO4"
 			},
 			{
-				label: " is mayonaise and instrument",
+				label: " Is mayonaise an instrument?",
 				url: "https://www.youtube.com/embed/A5jnftBQw2U"
 			},
 			{
-				label: " innapropriate wedding songs",
+				label: " Innapropriate Wedding Songs",
 				url: "https://www.youtube.com/embed/I8S2u8_vSnc"
 			}
 		],
 		video: [
 			{
-				label: " christmas childish gambino",
+				label: " Christmas Childish Gambino",
 				url: "https://www.youtube.com/embed/lZJ8yvg018Y"
 			},
 			{
-				label: " harry potter pupped pals",
+				label: " Harry Potter Puppet Pals",
 				url: "https://www.youtube.com/embed/z09rvN3s9Kg"
 			},
 			{
-				label: " numa numa",
+				label: " Numa Numa",
 				url: "https://www.youtube.com/embed/KmtzQCSh6xk"
 			},
 			{ label: " asdf", url: "https://www.youtube.com/embed/tKB4h9gvmm0" },
 			{
-				label: " scott sterling",
+				label: " Scott Sterling",
 				url: "https://www.youtube.com/embed/8F9jXYOH2c0"
 			}
 		],
