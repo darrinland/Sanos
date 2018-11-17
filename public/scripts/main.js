@@ -15,8 +15,8 @@ function start() {
 		html =
 			html +
 			`<div class="emotion" onclick="onStartEmotionSelected('${
-				emotion.emotion
-			}')">${emotion.emotion}</div>`;
+				emotion.emotionLabel
+			}')">${emotion.emotionLabel}</div>`;
 	});
 
 	html = html + `</div></div>`;
