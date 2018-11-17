@@ -35,10 +35,12 @@ let startEmotions = [
 	}
 ];
 
+// happy	#E9F21E
+
 emotions.push({
 	emotionLabel: "Happy",
 	startFromAny: true,
-	startFromEmotions: [],
+	color: "#E9F21E",
 	content: {
 		music: [
 			{
@@ -169,11 +171,12 @@ emotions.push({
 		]
 	}
 });
+// Empowered	#7ADC5A
 
 emotions.push({
 	emotionLabel: "Empowered",
 	startFromAny: true,
-	startFromEmotions: [],
+	color: "#7ADC5A",
 	content: {
 		music: [
 			{
@@ -298,10 +301,12 @@ emotions.push({
 	}
 });
 
+// ALL THE FEELS	#00BB82
+
 emotions.push({
 	emotionLabel: "ALL THE FEELS",
 	startFromAny: true,
-	startFromEmotions: [],
+	color: "#00BB82",
 	content: {
 		music: [
 			{
@@ -389,10 +394,12 @@ emotions.push({
 	}
 });
 
+// Calm	#00AE49
+
 emotions.push({
 	emotionLabel: "Calm",
 	startFromAny: true,
-	startFromEmotions: [],
+	color: "#00AE49",
 	content: {
 		music: [
 			{
@@ -479,11 +486,12 @@ emotions.push({
 		]
 	}
 });
+// Hope	#FFD500
 
 emotions.push({
 	emotionLabel: "Hope",
 	startFromAny: true,
-	startFromEmotions: [],
+	color: "#FFD500",
 	content: {
 		music: [
 			{
@@ -552,10 +560,12 @@ emotions.push({
 	}
 });
 
+// Connected	#008878
+
 emotions.push({
 	emotionLabel: "Connected",
 	startFromAny: true,
-	startFromEmotions: [],
+	color: "#008878",
 	content: {
 		music: [
 			{
@@ -622,11 +632,11 @@ emotions.push({
 		activity: []
 	}
 });
-
+// Creative 	#006876
 emotions.push({
 	emotionLabel: "Creative",
 	startFromAny: true,
-	startFromEmotions: [],
+	color: "#006876",
 	content: {
 		music: [
 			{
@@ -684,11 +694,11 @@ emotions.push({
 		activity: []
 	}
 });
-
+// Goofy	#009461
 emotions.push({
 	emotionLabel: "Goofy",
 	startFromAny: true,
-	startFromEmotions: [],
+	color: "#009461",
 	content: {
 		music: [
 			{
