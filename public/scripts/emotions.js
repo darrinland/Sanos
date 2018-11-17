@@ -1,33 +1,15 @@
-let emotions = [
-	"Relief",
-	"Relaxed",
-	"Pleasant ",
-	"Peaceful",
-	"Joyful",
-	"In Control",
-	"Happy",
-	"Energized",
-	"Determined",
-	"Contempt",
-	"Connected",
-	"Collected",
-	"Cheerful",
-	"Certain"
-];
+let emotions = [];
 
-let endEmotions = [
-	"Relief",
-	"Relaxed",
-	"Pleasant ",
-	"Peaceful",
-	"Joyful",
-	"In Control",
-	"Happy",
-	"Energized",
-	"Determined",
-	"Contempt",
-	"Connected",
-	"Collected",
-	"Cheerful",
-	"Certain"
-];
+emotions.push({
+	emotion: "Happy",
+	startFromAny: True,
+	startFromEmotions: [],
+	content: {
+		music: [
+			{
+				label: "Music1",
+				url: "http://www.google.com"
+			}
+		]
+	}
+});
