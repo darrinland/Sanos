@@ -11,7 +11,7 @@ let emotions = [];
 let startEmotions = [
 	{
 		label: "Angry",
-		color: "#d82222"
+		color: "#e83c3c"
 	},
 	{
 		label: "Anxiety",
@@ -40,7 +40,7 @@ let startEmotions = [
 emotions.push({
 	emotionLabel: "Happy",
 	startFromAny: true,
-	color: "#E9F21E",
+	color: "#fcff4c",
 	content: {
 		music: [
 			{
@@ -292,7 +292,8 @@ emotions.push({
 emotions.push({
 	emotionLabel: "ALL THE FEELS",
 	startFromAny: true,
-	color: "#00BB82",
+	// color: "#00BB82",
+	color: "#d5a6bd",
 	content: {
 		music: [
 			{
@@ -385,7 +386,8 @@ emotions.push({
 emotions.push({
 	emotionLabel: "Calm",
 	startFromAny: true,
-	color: "#00AE49",
+	// color: "#00AE49",
+	color: "#d4d4d4",
 	content: {
 		music: [
 			{
@@ -404,11 +406,6 @@ emotions.push({
 		],
 		video: [
 			{
-				label: " Live videos of Animals",
-				url:
-					"https://explore.org/livecams/explore-all-cams/bald-eagle-west-end-catalina"
-			},
-			{
 				label: " Oddly Satisfying compilation",
 				url: "https://www.youtube.com/embed/T1sa8uMvpp8"
 			},
@@ -422,6 +419,11 @@ emotions.push({
 			}
 		],
 		website: [
+			{
+				label: " Live videos of Animals",
+				url:
+					"https://explore.org/livecams/explore-all-cams/bald-eagle-west-end-catalina"
+			},
 			{
 				label: " See where you are in the universe",
 				url: "http://stars.chromeexperiments.com/"
@@ -450,11 +452,6 @@ emotions.push({
 				url: "https://www.studentsagainstdepression.org/"
 			},
 			{
-				label: " Live videos of Animals",
-				url:
-					"https://explore.org/livecams/explore-all-cams/bald-eagle-west-end-catalina"
-			},
-			{
 				label: " Rain",
 				url:
 					"https://rainymood.com/?fbclid=IwAR0YlUXxGCgK3i0RXpbnwWG2ll8YwoVtCSu9MXDacg8Bv6N-tnpheD4d58o"
@@ -478,7 +475,8 @@ emotions.push({
 emotions.push({
 	emotionLabel: "Hope",
 	startFromAny: true,
-	color: "#FFD500",
+	// color: "#FFD500",
+	color: "#b4a7d6",
 	content: {
 		music: [
 			{
@@ -545,7 +543,8 @@ emotions.push({
 emotions.push({
 	emotionLabel: "Connected",
 	startFromAny: true,
-	color: "#008878",
+	// color: "#008878",
+	color: "#a4c2f4",
 	content: {
 		music: [
 			{
@@ -606,7 +605,7 @@ emotions.push({
 emotions.push({
 	emotionLabel: "Creative",
 	startFromAny: true,
-	color: "#006876",
+	color: "#0094a9",
 	content: {
 		music: [
 			{
@@ -680,7 +679,8 @@ emotions.push({
 emotions.push({
 	emotionLabel: "Goofy",
 	startFromAny: true,
-	color: "#009461",
+	// color: "#009461",
+	color: "#f9cb9c",
 	content: {
 		music: [
 			{
