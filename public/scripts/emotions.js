@@ -27,8 +27,6 @@ let startEmotions = [
 	}
 ];
 
-// happy	#E9F21E
-
 emotions.push({
 	emotionLabel: "Happy",
 	startFromAny: true,
@@ -155,7 +153,6 @@ emotions.push({
 		]
 	}
 });
-// Empowered	#7ADC5A
 
 emotions.push({
 	emotionLabel: "Empowered",
@@ -279,13 +276,10 @@ emotions.push({
 	}
 });
 
-// ALL THE FEELS	#00BB82
-
 emotions.push({
 	emotionLabel: "ALL THE FEELS",
 	startFromAny: true,
-	// color: "#00BB82",
-	color: "#d5a6bd",
+	color: "#4f7bff",
 	content: {
 		music: [
 			{
@@ -373,12 +367,9 @@ emotions.push({
 	}
 });
 
-// Calm	#00AE49
-
 emotions.push({
 	emotionLabel: "Calm",
 	startFromAny: true,
-	// color: "#00AE49",
 	color: "#d4d4d4",
 	content: {
 		music: [
@@ -462,12 +453,9 @@ emotions.push({
 		]
 	}
 });
-// Hope	#FFD500
-
 emotions.push({
 	emotionLabel: "Hope",
 	startFromAny: true,
-	// color: "#FFD500",
 	color: "#b4a7d6",
 	content: {
 		music: [
@@ -530,12 +518,9 @@ emotions.push({
 	}
 });
 
-// Connected	#008878
-
 emotions.push({
 	emotionLabel: "Connected",
 	startFromAny: true,
-	// color: "#008878",
 	color: "#a4c2f4",
 	content: {
 		music: [
@@ -593,7 +578,7 @@ emotions.push({
 		activity: [, { label: " Put down your phone", url: "" }]
 	}
 });
-// Creative 	#006876
+
 emotions.push({
 	emotionLabel: "Creative",
 	startFromAny: true,
@@ -667,11 +652,10 @@ emotions.push({
 		]
 	}
 });
-// Goofy	#009461
+
 emotions.push({
 	emotionLabel: "Goofy",
 	startFromAny: true,
-	// color: "#009461",
 	color: "#f9cb9c",
 	content: {
 		music: [
@@ -727,19 +711,15 @@ emotions.push({
 emotions.forEach(e => {
 	e.content.video.forEach(v => {
 		v.label = v.label.replace(/'/gi, `\\'`);
-		console.log(v.label);
 	});
 	e.content.music.forEach(v => {
 		v.label = v.label.replace(/'/gi, `\\'`);
-		console.log(v.label);
 	});
 	e.content.website.forEach(v => {
 		v.label = v.label.replace(/'/gi, `\\'`);
-		console.log(v.label);
 	});
 	e.content.activity.forEach(v => {
 		v.label = v.label.replace(/'/gi, `\\'`);
-		console.log(v.label);
 	});
 });
 
