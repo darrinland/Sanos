@@ -210,10 +210,6 @@ emotions.push({
 				url: "https://www.youtube.com/embed/mbbMLOZjUYI"
 			},
 			{
-				label: " The Power of Vulnerability",
-				url: "https://www.youtube.com/embed/iCvmsMzlF7o&t=6s"
-			},
-			{
 				label: " You is Kind ",
 				url: "https://www.youtube.com/embed/3H50llsHm3k"
 			},
@@ -527,11 +523,6 @@ emotions.push({
 				url: "http://make-everything-ok.com/"
 			},
 			{
-				label: " The Power of Vulnerability ",
-				url:
-					"https://www.youtube.com/embed/iCvmsMzlF7o&list=PLs1f8FLNPv3X_zvmigytXCEaZVXFa973J&index=8"
-			},
-			{
 				label: " Students Against Depression",
 				url: "https://www.studentsagainstdepression.org/"
 			},
@@ -571,10 +562,6 @@ emotions.push({
 			}
 		],
 		video: [
-			{
-				label: " The Power of Vulnerability",
-				url: "https://www.youtube.com/embed/iCvmsMzlF7o&t=6s"
-			},
 			{
 				label: " The Hidden Truth About Human Connection",
 				url: "https://www.youtube.com/embed/23vBLxJQk-Y"
@@ -724,7 +711,7 @@ emotions.push({
 		video: [
 			{
 				label: " christmas childish gambino",
-				url: "https://www.youtube.com/embed/lZJ8yvg018Y&index=15&list=WL&t=0s"
+				url: "https://www.youtube.com/embed/lZJ8yvg018Y"
 			},
 			{
 				label: " harry potter pupped pals",
